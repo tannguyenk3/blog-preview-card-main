@@ -94,7 +94,7 @@ p {
     }
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1499px) {
     .container {
         max-width: 20%;
     }

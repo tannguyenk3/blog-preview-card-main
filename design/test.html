@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+  background-color: yellow; /* Background color */
+  border-radius: 20px; /* Adjust the radius to match your design */
+  position: relative;
+  overflow: hidden; /* Ensure inner content is clipped */
+}
+
+.inner {
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
+  background-color: white; /* Background color */
+  border-radius: 20px 0 0 0; /* Top-left corner rounded */
+  position: absolute;
+  top: 10px; /* Adjust position as needed */
+  left: 10px; /* Adjust position as needed */
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inner"></div>
+      </div>
+</body>
+</html>
